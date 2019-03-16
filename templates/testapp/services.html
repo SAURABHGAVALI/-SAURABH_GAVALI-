@@ -1,0 +1,694 @@
+<!DOCTYPE html>
+{%load static%}
+<html lang="en">
+<head>
+<title>SPARTAN_FIT</title>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="description" content="SportFIT template project">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="icon" type="image/png" href="{% static "images/logo-icon2.jpg" %}">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.0/css/bootstrap.min.css" integrity="sha384-PDle/QlgIONtM1aqA2Qemk5gPOE7wFq8+Em+G/hmo5Iq0CCmYZLv3fVRDJ4MMwEA" crossorigin="anonymous">
+<link rel="stylesheet" href="{% static "extra/sse.css"%}"
+ <link rel="stylesheet" href="{% static "css/reset.css" %}">
+ <link rel="stylesheet" href="{% static "css/animate.min.css" %}">
+
+ <link rel="stylesheet" href="{% static "css/movie1.css"%}">
+
+<link rel="stylesheet" type="text/css" href="{%static "styles/bootstrap-4.1.2/bootstrap.min.css"  %}">
+<link href="{%static "plugins/font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css"  %}">
+<link rel="stylesheet" type="text/css" href="{%static "plugins/OwlCarousel2-2.2.1/owl.carousel.css"  %}">
+<link rel="stylesheet" type="text/css" href="{%static "plugins/OwlCarousel2-2.2.1/owl.theme.default.css"  %}">
+<link rel="stylesheet" type="text/css" href="{%static "plugins/OwlCarousel2-2.2.1/animate.css"%}">
+<link rel="stylesheet" type="text/css" href="{%static "styles/services.css" %}">
+<link href="{%static "plugins/colorbox/colorbox.css"%}" rel="stylesheet" type="text/css">
+<link rel="stylesheet" type="text/css" href="{%static "styles/services_responsive.css" %}">
+</head>
+<body>
+
+
+	    <section id="navigation" class="dark-nav">
+	    <!-- Navigation -->
+	      <!-- Navigation Inner -->
+	      <div class="nav-inner">
+	        <!-- Site Logo -->
+	        <div class="site-logo Sanserif">
+	          <a href="#" id="logo-text" class="scroll logo">SPARTAN FITNESS
+	          </a>
+	        </div><!-- End Site Logo -->
+	        <a class="mini-nav-button gray2"><i class="fa fa-bars"></i></a>
+	        <!-- Navigation Menu -->
+	          <div class="nav-menu">
+	          <ul class="nav uppercase">
+
+	            <li><a href='/' class="scroll">Home</a></li>
+	            <li><a href='/Work-out.html' class="scroll">GYM-PLAN</a></li>
+	            <li><a href='/NUTRITION' class="scroll">NUTRITION</a></li>
+              <li><a href='/About1.html' class="scroll">YOGA</a></li>
+	            <li><a href='/AdventureWORLD' class="scroll">ADVENTURE</a></li>
+              <li><a href='/MEDITATION' class="scroll">MEDITATION</a></li>
+              <li><a href='/pranic' class="scroll">PRANIC</a></li>
+              <li><a href='/feedback' class="scroll">FEEDBACK</a></li>
+
+           </ul>
+	        </div><!-- End Navigation Menu -->
+	      </div><!-- End Navigation Inner -->
+	    </section><!-- End Navigation Section -->
+
+
+
+
+	<!-- Home -->
+	<div class="home">
+		<div class="background_image" style="background-image:url('https://images.unsplash.com/photo-1527933053326-89d1746b76b9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60');"></div>
+		<div class="overlay"></div>
+		<div class="home_container">
+			<div class="container">
+				<div class="row">
+					<div class="col">
+						<div class="home_content">
+							<div class="home_title">Services</div>
+							<div class="home_subtitle">Pilates, Yoga, Fitness, Spinning & many more</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- Services -->
+
+	<div class="services">
+		<div class="container">
+			<div class="row">
+				<div class="col">
+					<div class="section_title_container">
+						<div class="section_subtitle">Welcome To Spartan_Fitness</div>
+						<div class="section_title">Our Courses</div>
+					</div>
+				</div>
+			</div>
+      <!-- Milestones -->
+      <div class="milestones">
+        <div class="elements_title">Milestones</div>
+        <div class="row milestones_row">
+
+          <!-- Milestone -->
+          <div class="col-xl-3 col-md-6 milestone_col">
+            <div class="milestone d-flex flex-row align-items-center justify-content-start">
+              <div><div class="milestone_icon d-flex flex-column align-items-start justify-content-center"><img src="{%static "images/icon_10.png" alt="" %}"></div></div>
+              <div class="milestone_content">
+                <div class="milestone_counter" data-end-value="1273">1780</div>
+                <div class="milestone_text">Clients</div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Milestone -->
+          <div class="col-xl-3 col-md-6 milestone_col">
+            <div class="milestone d-flex flex-row align-items-center justify-content-start">
+              <div><div class="milestone_icon d-flex flex-column align-items-start justify-content-center"><img src="{%static "images/icon_11.png" alt=""%}"></div></div>
+              <div class="milestone_content">
+                <div class="milestone_counter" data-end-value="25" data-sign-after="k">35k</div>
+                <div class="milestone_text">Calories burned</div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Milestone -->
+          <div class="col-xl-3 col-md-6 milestone_col">
+            <div class="milestone d-flex flex-row align-items-center justify-content-start">
+              <div><div class="milestone_icon d-flex flex-column align-items-start justify-content-center"><img src="{%static "images/icon_12.png" alt="" %}"></div></div>
+              <div class="milestone_content">
+                <div class="milestone_counter" data-end-value="30">30</div>
+                <div class="milestone_text">Minutes / day</div>
+              </div>
+
+            </div>
+          </div>
+
+          <!-- Milestone -->
+          <div class="col-xl-3 col-md-6 milestone_col">
+            <div class="milestone d-flex flex-row align-items-center justify-content-start">
+              <div><div class="milestone_icon d-flex flex-column align-items-start justify-content-center"><img src="{%static "images/icon_13.png" alt=""%}"></div></div>
+              <div class="milestone_content">
+                <div class="milestone_counter" data-end-value="120" data-sign-after="k">120k</div>
+                <div class="milestone_text">Km ran</div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+			<div class="row services_row">
+				<!-- Service -->
+				<div class="col-xl-4 col-md-6 service_col">
+					<div class="service">
+						<div class="service_title_container d-flex flex-row align-items-center justify-content-start">
+							<div><div class="service_icon"><img src="{%static "images/icon_4.png" alt="" %}"></div></div>
+							<div class="service_title">Weight Loss Class</div>
+						</div>
+						<div class="service_text">
+							<p>Losing weight is never easy and there’s no one tip that’s going to change that. However, it also doesn’t have to be as complicated a process as many of us make it by counting every calorie or stripping our diet of entire food groups while trying to follow aggressively restrictive diet plans.</p>
+						</div>
+            <div class="button extra_button"><a href='/GymR'>JOIN NOW</a></div>
+
+					</div>
+				</div>
+
+				<!-- Service -->
+				<div class="col-xl-4 col-md-6 service_col">
+					<div class="service">
+						<div class="service_title_container d-flex flex-row align-items-center justify-content-start">
+							<div><div class="service_icon"><img src="{%static "images/icon_5.png" alt=""%}"></div></div>
+							<div class="service_title">Yoga Classes</div>
+						</div>
+						<div class="service_text">
+							<p>It’s a great idea to contact the studio where you will practice to ask for a recommendation for a class that's appropriate for you. Explain your fitness history and let them know about any injuries or limitations. Even with gentle classes, there are always variations among teachers. The studio owner or manager can help you find your best starting point.</p>
+						</div>
+            <div class="button extra_button"><a href='/About1.html'>JOIN NOW</a></div>
+
+        	</div>
+				</div>
+
+				<!-- Service -->
+				<div class="col-xl-4 col-md-6 service_col">
+					<div class="service">
+						<div class="service_title_container d-flex flex-row align-items-center justify-content-start">
+							<div><div class="service_icon"><img src="{%static "images/icon_6.png" alt=""%}"></div></div>
+							<div class="service_title">Spinning Class</div>
+						</div>
+						<div class="service_text">
+							<p>Spinning can be a bit of an explosion to the senses, but don’t get so carried away with the experience that you forget the basics of, you know, survival. Your muscles need oxygen to work, so take deep breaths.</p>
+						</div>
+            <div class="button extra_button"><a href='/Moderate'>JOIN NOW</a></div>
+
+        	</div>
+				</div>
+
+				<!-- Service -->
+				<div class="col-xl-4 col-md-6 service_col">
+					<div class="service">
+						<div class="service_title_container d-flex flex-row align-items-center justify-content-start">
+							<div><div class="service_icon"><img src="{%static "images/icon_7.png" alt=""%}"></div></div>
+							<div class="service_title">Private Fit Class</div>
+						</div>
+						<div class="service_text">
+							<p>Experience the personalized approach we provide to every client and their fitness program with our personal training.</p>
+						</div>
+            <div class="button extra_button"><a href='/Advanced'>JOIN NOW</a></div>
+
+          </div>
+				</div>
+
+				<!-- Service -->
+				<div class="col-xl-4 col-md-6 service_col">
+					<div class="service">
+						<div class="service_title_container d-flex flex-row align-items-center justify-content-start">
+							<div><div class="service_icon"><img src="{%static "images/icon_8.png" alt="" %}"></div></div>
+							<div class="service_title">Nutrition Classes</div>
+						</div>
+						<div class="service_text">
+							<p>We believe that people need education to make lasting changes to their health. That’s why we offer a variety of in-person and online classes to help you meet your health goals.</p>
+						</div>
+            <div class="button extra_button"><a href=#>JOIN NOW</a></div>
+
+        	</div>
+				</div>
+
+				<!-- Service -->
+				<div class="col-xl-4 col-md-6 service_col">
+					<div class="service">
+						<div class="service_title_container d-flex flex-row align-items-center justify-content-start">
+							<div><div class="service_icon"><img src="{%static "images/icon_9.png" alt="" %}"></div></div>
+							<div class="service_title">MEDITATION CLASSES</div>
+						</div>
+						<div class="service_text">
+							<p>If you’ve wanted to try Pilates classes but something has been holding you back, now’s your time to sign up for your first one. Pilates offers plenty of benefits to your body, no matter your fitness background. You’ll improve your posture,focus.</p>
+						</div>
+            <div class="button extra_button"><a href='/MEDITATION'>JOIN NOW</a></div>
+
+        	</div>
+				</div>
+
+			</div>
+		</div>
+	</div>
+
+
+
+
+
+      <div class="extra d-flex flex-column align-items-center justify-content-center text-center">
+        <div class="background_image" style="background-image:url('https://images.unsplash.com/photo-1507398941214-572c25f4b1dc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60')"></div>
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6 offset-md-3">
+              <div class="extra_content d-flex flex-column align-items-center justify-content-center text-center">
+                <div class="extra_title">GYM</div>
+                <div class="extra_title">30% Discount</div>
+
+                <div class="extra_text">
+                  <p>On behalf of SPARTAN FITNESS we cordially invite you to join the Spartan Fitness Club.</p>
+  Membership provides complimentary use of all of the Club’s facilities, which include:<p>
+  1) Fully Equipped Gymnasium
+  2) Hydrotherapy Spa
+  3) Steam Room & Sauna
+  4) Aerobics & Stretch Studio</p>
+  5) Indoor 12.5 m Pool</div>
+                <div class="button extra_button"><a href='/Work-out.html'>JOIN NOW</a></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
+
+
+
+
+
+
+            <div class="extra d-flex flex-column align-items-center justify-content-center text-center">
+              <div class="background_image" style="background-image:url('https://images.unsplash.com/photo-1547233528-6d2eaadbd331?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60')"></div>
+              <div class="container">
+                <div class="row">
+                  <div class="col-md-6 offset-md-3">
+                    <div class="extra_content d-flex flex-column align-items-center justify-content-center text-center">
+                      <div class="extra_title">ADVENTURES WORLD</div>
+                      <div class="extra_text">
+                        <p>On behalf of SPARTAN FITNESS we cordially invite you to join the Spartan Fitness Club.</p>
+        Membership provides complimentary use of all of the Club’s facilities, which include:<p>
+        1) Fully Equipped Gymnasium
+        2) Hydrotherapy Spa
+        3) Steam Room & Sauna
+        4) Aerobics & Stretch Studio
+        5) Indoor 12.5 m Pool</div></p>
+        <div class="extra_title">10% Discount</div>
+
+                      <div class="button extra_button"><a href='/AdventureWORLD'>JOIN NOW</a></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+
+
+                        <div class="extra d-flex flex-column align-items-center justify-content-center text-center">
+                          <div class="background_image" style="background-image:url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSH0WP5E9fX_D1aMetMejJeJCyFeIbV1cr6O9gfN7AHMFnT_yanwQ')"></div>
+                          <div class="container">
+                            <div class="row">
+                              <div class="col-md-6 offset-md-3">
+                                <div class="extra_content d-flex flex-column align-items-center justify-content-center text-center">
+                                  <div class="extra_title">YOGA</div>
+
+                                  <div class="extra_text">
+                                    <p>On behalf of SPARTAN FITNESS we cordially invite you to join the Spartan Fitness Club.
+                    Membership provides complimentary use of all of the Club’s facilities, which include:<p>
+                    1) Fully Equipped Gymnasium
+                    2) Hydrotherapy Spa
+                    3) Steam Room & Sauna
+                    4) Aerobics & Stretch Studio
+                    5) Indoor 12.5 m Pool</div></p>
+                    <div class="extra_title">40% Discount</div>
+                              <div class="button extra_button"><a href='/About1.html'>JOIN NOW</a></div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+
+
+	<!-- Timetable -->
+
+	<div class="timetable">
+		<div class="parallax_background parallax-window" data-parallax="scroll" data-image-src="{%static "images/timetable.jpg"  data-speed="0.8"%}" ></div>
+	<div><div class="parallax_background parallax-window" data-parallax="scroll"><img src="{%static "images/timetable.jpg" alt="" %}"></div></div>
+		<div class="tt_overlay"></div>
+		<div class="container">
+			<div class="row">
+				<div class="col">
+					<div class="section_title_container">
+						<div class="section_title">Classes Timetable</div>
+					</div>
+					<div class="timetable_filtering">
+						<ul class="d-flex flex-row align-items-start justify-content-start flex-wrap">
+							<li class="active item_filter_btn" data-filter="*">All Classes</li>
+							<li class="item_filter_btn" data-filter=".weight_loss">Weight Loss</li>
+							<li class="item_filter_btn" data-filter=".aerobics">Aerobics</li>
+							<li class="item_filter_btn" data-filter=".crossfit">Crossfit</li>
+							<li class="item_filter_btn" data-filter=".fitness">Fitness</li>
+							<li class="item_filter_btn" data-filter=".yoga">Yoga</li>
+							<li class="item_filter_btn" data-filter=".pilates">Pilates</li>
+							<li class="item_filter_btn" data-filter=".stretching">Stretching</li>
+						</ul>
+					</div>
+					<div class="timetable_container d-flex flex-sm-row flex-column align-items-start justify-content-sm-between justify-content-start">
+
+						<!-- Monday -->
+						<div class="tt_day">
+							<div class="tt_title">monday</div>
+							<div class="tt_day_content grid">
+
+								<!-- Class -->
+								<div class="tt_class grid-item weight_loss">
+									<div class="tt_class_title">Weight Loss</div>
+									<div class="tt_class_instructor">SANDEEP G</div>
+									<div class="tt_class_time">9:00</div>
+								</div>
+
+								<!-- Class -->
+								<div class="tt_class grid-item aerobics">
+									<div class="tt_class_title">Aerobics</div>
+									<div class="tt_class_instructor">SAURABH G</div>
+									<div class="tt_class_time">10:00</div>
+								</div>
+
+								<!-- Class -->
+								<div class="tt_class empty grid-item">
+
+								</div>
+
+								<!-- Class -->
+								<div class="tt_class grid-item aerobics">
+									<div class="tt_class_title">Aerobics</div>
+									<div class="tt_class_instructor">SAURABH G</div>
+									<div class="tt_class_time">13:00</div>
+								</div>
+
+							</div>
+						</div>
+
+						<!-- Tuesday -->
+						<div class="tt_day">
+							<div class="tt_title">tuesday</div>
+							<div class="tt_day_content grid">
+
+								<!-- Class -->
+								<div class="tt_class grid-item weight_loss">
+									<div class="tt_class_title">Weight Loss</div>
+									<div class="tt_class_instructor">SANDEEP</div>
+									<div class="tt_class_time">8:00</div>
+								</div>
+
+								<!-- Class -->
+								<div class="tt_class empty grid-item">
+
+								</div>
+
+								<!-- Class -->
+								<div class="tt_class grid-item aerobics">
+									<div class="tt_class_title">Aerobics</div>
+									<div class="tt_class_instructor">SAURABH G</div>
+									<div class="tt_class_time">12:00</div>
+								</div>
+
+								<!-- Class -->
+								<div class="tt_class grid-item aerobics">
+									<div class="tt_class_title">Aerobics</div>
+									<div class="tt_class_instructor">SAURABH G</div>
+									<div class="tt_class_time">13:00</div>
+								</div>
+							</div>
+						</div>
+
+						<!-- Wednesday -->
+						<div class="tt_day">
+							<div class="tt_title">wednesday</div>
+							<div class="tt_day_content grid">
+
+								<!-- Class -->
+								<div class="tt_class grid-item crossfit">
+									<div class="tt_class_title">Crossfit</div>
+									<div class="tt_class_instructor">SHUBHAM B.& KIRAN G.</div>
+									<div class="tt_class_time">9:00</div>
+								</div>
+
+								<!-- Class -->
+								<div class="tt_class grid-item aerobics">
+									<div class="tt_class_title">Aerobics</div>
+									<div class="tt_class_instructor">SAURABH G</div>
+									<div class="tt_class_time">10:00</div>
+								</div>
+
+								<!-- Class -->
+								<div class="tt_class empty grid-item">
+
+								</div>
+
+								<!-- Class -->
+								<div class="tt_class grid-item aerobics">
+									<div class="tt_class_title">Aerobics</div>
+									<div class="tt_class_instructor">SAURABH G</div>
+									<div class="tt_class_time">13:00</div>
+								</div>
+
+								<!-- Class -->
+								<div class="tt_class grid-item aerobics">
+									<div class="tt_class_title">Aerobics</div>
+									<div class="tt_class_instructor">SAURABH G</div>
+									<div class="tt_class_time">17:00</div>
+								</div>
+							</div>
+						</div>
+
+						<!-- Thursday -->
+						<div class="tt_day">
+							<div class="tt_title">thursday</div>
+							<div class="tt_day_content grid">
+
+								<!-- Class -->
+								<div class="tt_class grid-item fitness">
+									<div class="tt_class_title">Fitness</div>
+									<div class="tt_class_instructor">SHUBHAM D </div>
+									<div class="tt_class_time">9:00</div>
+								</div>
+
+								<!-- Class -->
+								<div class="tt_class grid-item aerobics">
+									<div class="tt_class_title">Aerobics</div>
+									<div class="tt_class_instructor"> </div>
+									<div class="tt_class_time">10:00</div>
+								</div>
+
+								<!-- Class -->
+								<div class="tt_class grid-item yoga">
+									<div class="tt_class_title">Yoga</div>
+									<div class="tt_class_instructor">VASUDHA R</div>
+									<div class="tt_class_time">12:00</div>
+								</div>
+
+								<!-- Class -->
+								<div class="tt_class grid-item pilates">
+									<div class="tt_class_title">Pilates</div>
+									<div class="tt_class_instructor">AKSHAY M.</div>
+									<div class="tt_class_time">13:00</div>
+								</div>
+							</div>
+						</div>
+
+						<!-- Friday -->
+						<div class="tt_day">
+							<div class="tt_title">friday</div>
+							<div class="tt_day_content grid">
+
+								<!-- Class -->
+								<div class="tt_class grid-item yoga">
+									<div class="tt_class_title">Yoga</div>
+									<div class="tt_class_instructor">JAYSHRI M.</div>
+									<div class="tt_class_time">9:00</div>
+								</div>
+
+								<!-- Class -->
+								<div class="tt_class grid-item aerobics">
+									<div class="tt_class_title">Aerobics</div>
+									<div class="tt_class_instructor">SAURABH K.</div>
+									<div class="tt_class_time">10:00</div>
+								</div>
+
+								<!-- Class -->
+								<div class="tt_class empty grid-item">
+
+								</div>
+
+								<!-- Class -->
+								<div class="tt_class grid-item aerobics">
+									<div class="tt_class_title">Aerobics</div>
+									<div class="tt_class_instructor">SAURABH K.</div>
+									<div class="tt_class_time">13:00</div>
+								</div>
+							</div>
+						</div>
+
+						<!-- Saturday -->
+						<div class="tt_day">
+							<div class="tt_title">Saturday</div>
+							<div class="tt_day_content grid">
+
+								<!-- Class -->
+								<div class="tt_class grid-item weight_loss">
+									<div class="tt_class_title">Weight Loss</div>
+									<div class="tt_class_instructor">Wallabh S.</div>
+									<div class="tt_class_time">9:00</div>
+								</div>
+
+								<!-- Class -->
+								<div class="tt_class grid-item pilates">
+									<div class="tt_class_title">Pilates</div>
+									<div class="tt_class_instructor">SUTAR S.</div>
+									<div class="tt_class_time">10:00</div>
+								</div>
+
+								<!-- Class -->
+								<div class="tt_class empty grid-item">
+
+								</div>
+
+								<!-- Class -->
+								<div class="tt_class grid-item aerobics">
+									<div class="tt_class_title">Aerobics</div>
+									<div class="tt_class_instructor"> GARAD M.</div>
+									<div class="tt_class_time">13:00</div>
+								</div>
+							</div>
+						</div>
+
+						<!-- Sunday -->
+						<div class="tt_day">
+							<div class="tt_title">Sunday</div>
+							<div class="tt_day_content grid">
+
+								<!-- Class -->
+								<div class="tt_class grid-item stretching">
+									<div class="tt_class_title">Stretching</div>
+									<div class="tt_class_instructor">KIRAN G</div>
+									<div class="tt_class_time">9:00</div>
+								</div>
+
+								<!-- Class -->
+								<div class="tt_class grid-item aerobics">
+									<div class="tt_class_title">Aerobics</div>
+									<div class="tt_class_instructor">AKSHAY M.</div>
+									<div class="tt_class_time">10:00</div>
+								</div>
+
+								<!-- Class -->
+								<div class="tt_class empty grid-item">
+
+								</div>
+
+								<!-- Class -->
+								<div class="tt_class empty grid-item">
+
+								</div>
+							</div>
+						</div>
+
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+
+
+
+
+                          <div class="extra d-flex flex-column align-items-center justify-content-center text-center">
+                            <div class="background_image" style="background-image:url('https://images.unsplash.com/photo-1506126613408-eca07ce68773?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60')"></div>
+                            <div class="container">
+                              <div class="row">
+                                <div class="col-md-6 offset-md-3">
+                                  <div class="extra_content d-flex flex-column align-items-center justify-content-center text-center">
+                                    <div class="extra_title">MEDITATION</div>
+                                    <div class="extra_text">
+                                      <p>On behalf of SPARTAN FITNESS we cordially invite you to join the Spartan Fitness Club.</p>
+                      Membership provides complimentary use of all of the Club’s facilities, which include:<p>
+                      1) Fully Equipped Gymnasium</p><p>
+                      2) Hydrotherapy Spa</p><p>
+                      3) Steam Room & Sauna</p><p>
+                      4) Aerobics & Stretch Studio</p><p>
+                      5) Indoor 12.5 m Pool</div>
+                      <div class="extra_title">50% Discount</div>
+
+                                    <div class="button extra_button"><a href='/Meditation'>JOIN NOW</a></div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+
+
+
+
+                          <div class="extra d-flex flex-column align-items-center justify-content-center text-center">
+                            <div class="background_image" style="background-image:url('https://images.unsplash.com/photo-1483691278019-cb7253bee49f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60')"></div>
+                              <div class="container">
+                                    <div class="row">
+                                        <div class="col-md-6 offset-md-3">
+                                            <div class="extra_content d-flex flex-column align-items-center justify-content-center text-center">
+                                              <div class="extra_title">PRANIC HEALING</div>
+
+                                            <div class="extra_text">
+                                          <p>On behalf of SPARTAN FITNESS we cordially invite you to join the Spartan Fitness Club.</p>
+                                          Membership provides complimentary use of all of the Club’s facilities, which include:<p>
+                                          1) Fully Equipped Gymnasium</p><p>
+                                          2) Hydrotherapy Spa</p><p>
+                                          3) Steam Room & Sauna</p><p>
+                                          4) Aerobics & Stretch Studio</p><p>
+                                          5) Indoor 12.5 m Pool</div>
+                                          <div class="extra_title">40%</div>
+
+                                    <div class="button extra_button"><a href=pranic>JOIN NOW</a></div>
+                                      </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+
+
+
+
+	<!-- Extra -->
+
+
+	<!-- Footer -->
+
+
+
+              <!-- Footer -->
+                <footer id="footer" class="footer">
+                  <!-- Your Company Name -->
+                 <h2> ...............THANKS FOR VISITING SPARTAN FITNESS............</h2>
+                      <img src="{%static "images/logo-icon1.jpg" %}" width="200" alt="Logo" >
+
+                      <marquee direction="left">EMAIL US:1)saurabhgavali12@gmail.com </marquee>
+              </footer>
+
+              <script src="js/jquery-3.2.1.min.js"></script>
+              <script src="styles/bootstrap-4.1.2/popper.js"></script>
+              <script src="styles/bootstrap-4.1.2/bootstrap.min.js"></script>
+              <script src="plugins/greensock/TweenMax.min.js"></script>
+              <script src="plugins/greensock/TimelineMax.min.js"></script>
+              <script src="plugins/scrollmagic/ScrollMagic.min.js"></script>
+              <script src="plugins/greensock/animation.gsap.min.js"></script>
+              <script src="plugins/greensock/ScrollToPlugin.min.js"></script>
+              <script src="plugins/OwlCarousel2-2.2.1/owl.carousel.js"></script>
+              <script src="plugins/easing/easing.js"></script>
+              <script src="plugins/progressbar/progressbar.min.js"></script>
+              <script src="plugins/parallax-js-master/parallax.min.js"></script>
+              <script src="plugins/colorbox/jquery.colorbox-min.js"></script>
+              <script src="plugins/Isotope/isotope.pkgd.min.js"></script>
+              <script src="js/services.js"></script>
+
+-
+
+</body>
+</html>

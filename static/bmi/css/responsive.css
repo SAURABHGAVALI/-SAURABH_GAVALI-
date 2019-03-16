@@ -1,0 +1,140 @@
+@media (max-width: 767px) { 
+	.head-top .container {
+		padding: 15px;
+	}
+	.footer {
+		width: 100%;
+		float: left;
+	}
+	.box-content .col-md-6 {
+		padding: 15px;
+	}
+	.circleSection .col-md-3 {
+		padding: 15px;
+	}
+	#sketch-holder canvas {
+		width: 100% !important;
+	}
+	.tile-9 {
+		margin: 20px 0 0 0;
+		background-size:cover; 
+	}
+	.social-footer img {
+		margin: 25px 0 0 5px;
+	}
+	.footer-block p {
+		margin: 0 !important;
+	}
+	.footer-block {
+		float: left;
+		padding: 30px 0 0 7px;
+		width: auto;
+	}
+	.tile-7 {
+		margin: 30px 0 0 0;
+	}
+	.social-footer {
+		width: auto;
+		padding: 0 5px 0 0 ;
+	}
+	
+
+}	
+
+@media (min-width: 320px) and (max-width: 480px) {
+	.back-4 .block-1 h1 {
+		font-size: 22px;
+	}
+	.tile-4 .back-4 h1 {
+     margin: 100px 60px;
+    padding: 0;
+    text-align: center;
+    width: auto;
+}
+
+
+}
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 640px) and (orientation : landscape) { 
+	.tile-1 .back-1 h1 {
+		text-align: center;
+		margin: 30% 0 0 0;
+		width: 100%;
+		padding: 0;
+	}
+	.tile-4 .back-4 h1 {
+    margin: 200px 0 0 -24px;
+    padding: 0;
+    text-align: center;
+    width: 100%;
+}
+.tile-5 .back-4 h1 {
+	text-align: center;
+	width: 100%;
+	margin: 100px 0 0 0;
+}
+.tile-8 .back-8 h1 {
+		text-align: center;
+		margin: 30% 0 0 0;
+		width: 100%;
+		padding: 0;
+	}
+	.social-footer {
+		width: auto;
+		padding: 0 30px 0 0 ;
+	}
+}
+
+@media (min-width: 641px) and (max-width: 755px) {
+.tile-1 .back-1 h1 {
+		 float: left;
+    margin: 33% 0 0 !important;
+    padding: 0 !important;
+    text-align: center !important;
+    width: 96% !important;
+	}
+	.tile-1 > img {
+		width: 100%;
+	}
+	.tile-4 img {
+		width: 100%;
+	}
+	.tile-4 .back-4 h1 {
+	
+    margin: 33% 0 0 !important;
+    
+    width: 96% !important;
+    
+    /*margin: 30% 0 !important;
+   
+    width: 100% !important;*/
+}
+.tile-8 img {
+	width: 100%;
+}
+.tile-8 .back-8 h1 {
+    
+    margin: 30% 0 !important;
+   
+    width: 96% !important;
+}
+.social-footer {
+    float: right;
+    height: 100%;
+    padding: 0 16px 0 0;
+    position: relative;
+    width: auto;
+}
+.social-footer a img {
+	padding: 0 10px 0 0;
+}
+.tile-5 .back-4 h1 {
+	margin: 100px 0 0 0;
+	width: 98%;
+	text-align: center;
+}
+.social-footer {
+		width: auto;
+		padding: 0 30px 0 0 ;
+	}
+}

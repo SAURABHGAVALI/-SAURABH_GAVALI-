@@ -1,0 +1,14 @@
+
+{% extends 'testapp1/base.html'%}
+      {%block body_block%}
+      <h1>ADVENTURES WORLD REGISTRATION FORM</h1><hr>
+      <form method="post">
+        <table  width='25%' border="10">
+          {{form}}
+        </table>
+        {%csrf_token%}
+        <br>
+        <input type="submit" class='btn btn-success btn-lg' value="REGISTER">
+      </form>
+
+      {%endblock%}

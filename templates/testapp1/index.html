@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+{% extends 'testapp/base.html'%}
+      {%block body_block%}
+      <h1>Trainee Information Dash Board</h1><hr>
+      <table border='2'>
+        <thead>
+          <th>CName</th>
+          <th>Age</th>
+          <th>Candidate Email</th>
+          <th>Candidate MobileNo</th>
+          <th>Candidate Gender</th>
+           <th>Actions</th>
+        </thead>
+        {%for  C in Candidate %}
+        <tr>
+          <td>{{C.Cname}}</td>
+          <td>{{C.age}}</td>
+          <td>{{C.Email}}</td>
+          <td>{{C.MobileNo}}</td>
+          <td>{{C.Gender}}</td>
+
+          <td>
+            <a href="/delete/{{C.id}}">Delete</a>
+          </td>
+        </tr>
+        {%endfor%}
+      </table><br><br><br>
+      <a href="/insert" class='btn btn-primary btn-lg'>Do You Want to Insert New Candidate</a>
+
+      {%endblock%}

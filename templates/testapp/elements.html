@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+{%load staticfiles%}
+<html lang="en">
+<head>
+<title>SPARTAN_FIT</title>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="description" content="SportFIT template project">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+<link rel="icon" type="image/png" href="{% static "images/logo-icon1.jpg" %}">
+
+ <link rel="stylesheet" href="{% static "css/reset.css" %}">
+ <link rel="stylesheet" href="{% static "css/animate.min.css" %}">
+
+
+<link rel="stylesheet" type="text/css" href="{%static "styles/bootstrap-4.1.2/bootstrap.min.css"%}">
+<link href="{%static "plugins/font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css"%}">
+<link rel="stylesheet" type="text/css" href="{%static "styles/elements.css"%}">
+<link rel="stylesheet" type="text/css" href="{%static "styles/elements_responsive.css"%}">
+
+
+<link rel="stylesheet" href="{% static "css/movie1.css"%}">
+ <link rel="stylesheet" href="{% static "css/reset.css" %}  ">
+ <link rel="stylesheet" href="{% static "css/animate.min.css" %}">
+
+
+</head>
+<body>
+
+
+		    <section id="navigation" class="dark-nav">
+		    <!-- Navigation -->
+		      <!-- Navigation Inner -->
+		      <div class="nav-inner">
+		        <!-- Site Logo -->
+		        <div class="site-logo Sanserif">
+		          <a href="#" id="logo-text" class="scroll logo">SPARTAN FITNESS
+		          </a>
+		        </div><!-- End Site Logo -->
+		        <a class="mini-nav-button gray2"><i class="fa fa-bars"></i></a>
+		        <!-- Navigation Menu -->
+		          <div class="nav-menu">
+		          <ul class="nav uppercase">
+		            <li><a href='/' class="scroll">Home</a></li>
+		            <li><a href='/food.html' class="scroll">About us</a></li>
+		            <li><a href='/blog' class="scroll">BLOG</a></li>
+		            <li><a href='/signup' class="scroll">JOIN US</a></li>
+		          </ul>
+		        </div><!-- End Navigation Menu -->
+		      </div><!-- End Navigation Inner -->
+		    </section><!-- End Navigation Section -->
+	<!-- Home -->
+	<div class="home">
+		<div class="background_image" style="background-image:url('https://images.unsplash.com/photo-1546749876-2088f8b19e09?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60')"></div>
+		<div class="home_container">
+			<div class="container">
+				<div class="row">
+					<div class="col">
+						<div class="home_content">
+							<div class="home_title">TRAINERS</div>
+							<div class="home_subtitle">Pilates, Yoga, Fitness, Spinning & Many More</div>
+              <marquee direction="right"><a href="/signup" class="scroll">Click Here To Register</a></marquee>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+  <div class="blog">
+    <div class="container">
+  <div class="row blog_row">
+    <!-- Blog Post -->
+    <div class="col-xl-4 col-md-6 blog_col">
+      <div class="blog_post">
+        <div class="blog_post_image"><img src="{%static "extra/work/P1.jpg" alt="" %}"></div>
+        <div class="blog_post_title"><h3>Mr.RAVI RANA</h3></div>
+        <div class="blog_post_text">
+          <p>Bachelor of Science in Health Education.
+          Health Mangager Having 17 Years Experience in  Proper Health Management.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Blog Post -->
+    <div class="col-xl-4 col-md-6 blog_col">
+      <div class="blog_post">
+        <div class="blog_post_image"><img src="{%static "extra/work/P2.jpg" alt="" %}"></div>
+        <div class="blog_post_title"><h3>Mr.SAURABH G</h3></div>
+        <div class="blog_post_text">
+          <p>Expert Indoor Exercises.Along With Motivational Speaker & Trains Lot's of Candidate Leadership.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Blog Post -->
+    <div class="col-xl-4 col-md-6 blog_col">
+      <div class="blog_post">
+        <div class="blog_post_image"><img src="{%static "extra/work/P6.jpg" alt="" %}"></div>
+        <div class="blog_post_title"><h3>Mrs.Gitanjali Rai</h3></div>
+        <div class="blog_post_text">
+          <p>Experts In Cardio Excercises. </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Blog Post -->
+    <div class="col-xl-4 col-md-6 blog_col">
+      <div class="blog_post">
+        <div class="blog_post_image"><img src="{%static "extra/work/P7.jpg" alt="" %}"></div>
+        <div class="blog_post_title"><h3>Mrs Radhika Kashayap</h3></div>
+        <div class="blog_post_text">
+          <p>Expert in Full Body Workout Having Experience Since Last 12 Years.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Blog Post -->
+    <div class="col-xl-4 col-md-6 blog_col">
+      <div class="blog_post">
+        <div class="blog_post_image"><img src="{%static "extra/work/P8.jpg" alt="" %}"></div>
+        <div class="blog_post_title"><a href="#">Mr.Vipul Sharma</a></div>
+        <div class="blog_post_text">
+          <p>Vipual Sir Is  Leading Boxer In India & Having Ablity To Do Any Excercises. </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Blog Post -->
+    <div class="col-xl-4 col-md-6 blog_col">
+      <div class="blog_post">
+        <div class="blog_post_image"><img src="{%static "extra/work/P9.jpg" alt=""%}"></div>
+        <div class="blog_post_title"><h3>Mr.Avinash G </h3></div>
+        <div class="blog_post_text">
+          <p>Weight-lifting Experts Having Good Command Yoga & Meditation.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Blog Post -->
+    <div class="col-xl-4 col-md-6 blog_col">
+      <div class="blog_post">
+        <div class="blog_post_image"><img src="{%static "extra/work/P14.jpg" alt=""%}"></div>
+        <div class="blog_post_title"><h3>Mrs.Tina Shah.</h3></div>
+        <div class="blog_post_text">
+          <p>Tina Mam Is Experts In The Field Of Yoga & Meditation ,She Is having 8 Years of Experience In Yoga Classes.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Blog Post -->
+    <div class="col-xl-4 col-md-6 blog_col">
+      <div class="blog_post">
+        <div class="blog_post_image"><img src="{%static "extra/work/P17.jpg" alt="" %}"></div>
+        <div class="blog_post_title"><h3>Mrs.Avantika Choudhary</h3></div>
+        <div class="blog_post_text">
+          <p>Avantika Mam Is An All Rounder Personality,She Takes Weight-Loss& Gain Classes ,Along With Motivational Talks.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Blog Post -->
+    <div class="col-xl-4 col-md-6 blog_col">
+      <div class="blog_post">
+        <div class="blog_post_image"><img src="{%static "extra/work/P16.jpg" alt="" %}"></div>
+        <div class="blog_post_title"><h3>Arpita Pandey</h3></div>
+        <div class="blog_post_text">
+          <p> Arpita Mam Experts  In Pilates,Crossfit, Spinning,Areobics.Having 5 Years of Experience As Trainer.</p>
+        </div>
+      </div>
+    </div>
+
+
+
+    <div class="blog">
+      <div class="container">
+    <div class="row blog_row">
+      <!-- Blog Post -->
+      <div class="col-xl-4 col-md-6 blog_col">
+        <div class="blog_post">
+          <div class="blog_post_image"><img src="{%static "extra/work/N1.jpg" alt="" %}"></div>
+          <div class="blog_post_title"><h3>Dr.Sanjana Dubey</h3></div>
+          <div class="blog_post_text">
+            <p>Health Consultant.  Having 10 Years Collabration Our SPARTAN FITNESS. </p>
+          </div>
+        </div>
+      </div>
+
+
+
+          <!-- Blog Post -->
+          <div class="col-xl-4 col-md-6 blog_col">
+            <div class="blog_post">
+              <div class="blog_post_image"><img src="{%static "extra/work/N3.jpg" alt="" %}"></div>
+              <div class="blog_post_title">Dr.Reshma Qureshi.</div>
+              <div class="blog_post_text">
+                <p>Gynologist Counsultant.  Having 11 Years Collabration Our SPARTAN FITNESS. </p>
+
+              </div>
+            </div>
+          </div>
+
+
+
+
+              <!-- Blog Post -->
+              <div class="col-xl-4 col-md-6 blog_col">
+                <div class="blog_post">
+                  <div class="blog_post_image"><img src="{%static "extra/work/N2.jpg" alt="" %}"></div>
+                  <div class="blog_post_title"><h3>Dr.Karuna Nirmalkar.</h3></div>
+                  <div class="blog_post_text">
+                    <p>Body Building Plan Counsultant.  Having 4 Years Collabration Our SPARTAN FITNESS. </p>
+                  </div>
+                    </div>
+              </div>
+
+
+
+                  <!-- Blog Post -->
+                  <div class="col-xl-4 col-md-6 blog_col">
+                    <div class="blog_post">
+                      <div class="blog_post_image"><img src="{%static "extra/work/N5.jpg" alt="" %}"></div>
+                      <div class="blog_post_title"><h3>Dipika Jadhav</h3></div>
+                      <div class="blog_post_text">
+                        <p>Mental Health Consaltant.  Having 7 Years Collabration Our SPARTAN FITNESS. </p>
+                      </div>
+                    </div>
+                  </div>
+
+
+
+                  <!-- Blog Post -->
+                  <div class="col-xl-4 col-md-6 blog_col">
+                    <div class="blog_post">
+                      <div class="blog_post_image"><img src="{%static "extra/work/N6.jpg" alt="" %}"></div>
+                      <div class="blog_post_title"><h3>Dr.Krunal Desai</h3></div>
+                      <div class="blog_post_text">
+                        <p> Human Pyschology Consaltant.  Having 7 Years Collabration Our SPARTAN FITNESS. </p>
+                      </div>
+                    </div>
+                  </div>
+
+
+                  <!-- Blog Post -->
+                  <div class="col-xl-4 col-md-6 blog_col">
+                    <div class="blog_post">
+                      <div class="blog_post_image"><img src="{%static "extra/work/N7.jpg" alt="" %}"></div>
+                      <div class="blog_post_title"><h3>Urmala Wagaj</h3></div>
+                      <div class="blog_post_text">
+                        <p>Stress Man Consaltant. Having 9 Years Collabration Our SPARTAN FITNESS. </p>
+                      </div>
+                    </div>
+                  </div>
+
+
+
+
+          <!-- Milestones -->
+					<div class="milestones">
+						<div class="elements_title">Milestones</div>
+						<div class="row milestones_row">
+
+							<!-- Milestone -->
+							<div class="col-xl-3 col-md-6 milestone_col">
+								<div class="milestone d-flex flex-row align-items-center justify-content-start">
+									<div><div class="milestone_icon d-flex flex-column align-items-start justify-content-center"><img src="{%static "images/icon_10.png" alt="" %}"></div></div>
+									<div class="milestone_content">
+										<div class="milestone_counter" data-end-value="1273">1780</div>
+										<div class="milestone_text">Clients</div>
+									</div>
+								</div>
+							</div>
+
+							<!-- Milestone -->
+							<div class="col-xl-3 col-md-6 milestone_col">
+								<div class="milestone d-flex flex-row align-items-center justify-content-start">
+									<div><div class="milestone_icon d-flex flex-column align-items-start justify-content-center"><img src="{%static "images/icon_11.png" alt=""%}"></div></div>
+									<div class="milestone_content">
+										<div class="milestone_counter" data-end-value="25" data-sign-after="k">35k</div>
+										<div class="milestone_text">Calories burned</div>
+									</div>
+								</div>
+							</div>
+
+							<!-- Milestone -->
+							<div class="col-xl-3 col-md-6 milestone_col">
+								<div class="milestone d-flex flex-row align-items-center justify-content-start">
+									<div><div class="milestone_icon d-flex flex-column align-items-start justify-content-center"><img src="{%static "images/icon_12.png" alt="" %}"></div></div>
+									<div class="milestone_content">
+										<div class="milestone_counter" data-end-value="30">30</div>
+										<div class="milestone_text">Minutes / day</div>
+									</div>
+
+								</div>
+							</div>
+
+							<!-- Milestone -->
+							<div class="col-xl-3 col-md-6 milestone_col">
+								<div class="milestone d-flex flex-row align-items-center justify-content-start">
+									<div><div class="milestone_icon d-flex flex-column align-items-start justify-content-center"><img src="{%static "images/icon_13.png" alt=""%}"></div></div>
+									<div class="milestone_content">
+										<div class="milestone_counter" data-end-value="120" data-sign-after="k">120k</div>
+										<div class="milestone_text">Km ran</div>
+									</div>
+								</div>
+							</div>
+
+            </div>
+					</div>
+
+					<!-- Icon Boxes -->
+					<div class="icon_boxes">
+						<div class="elements_title">Milestones</div>
+						<div class="row services_row">
+
+							<!-- Service -->
+							<div class="col-xl-4 col-md-6 service_col">
+								<div class="service">
+									<div class="service_title_container d-flex flex-row align-items-center justify-content-start">
+										<div><div class="service_icon"><img src="{%static "images/icon_4.png" alt=""%}"></div></div>
+										<div class="service_title">Weight Loss Class</div>
+									</div>
+									<div class="service_text">
+										<p>Losing weight is never easy and there’s no one tip that’s going to change that. However, it also doesn’t have to be as complicated a process as many of us make it by counting every calorie or stripping our diet of entire food groups while trying to follow aggressively restrictive diet plans.</p>
+									</div>
+								</div>
+							</div>
+
+							<!-- Service -->
+							<div class="col-xl-4 col-md-6 service_col">
+								<div class="service">
+									<div class="service_title_container d-flex flex-row align-items-center justify-content-start">
+										<div><div class="service_icon"><img src="{%static "images/icon_5.png" alt=""%}"></div></div>
+										<div class="service_title">Yoga Classes</div>
+									</div><p>Yoga is a great way to work on your flexibility and strength. Just about everyone can do it, too -- it's not just for people who can touch their toes or want to meditate.Some styles of yoga, such as ashtanga and power yoga, are very physical. Practicing one of these styles will help you improve muscle tone.</p>
+									<div class="service_text">
+
+									</div>
+								</div>
+							</div>
+
+							<!-- Service -->
+							<div class="col-xl-4 col-md-6 service_col">
+								<div class="service">
+									<div class="service_title_container d-flex flex-row align-items-center justify-content-start">
+										<div><div class="service_icon"><img src="{%static "images/icon_6.png" alt=""%}"></div></div>
+										<div class="service_title">Spinning Class</div>
+									</div><p>We love to ride our bikes outside, but sometimes a spin class is a quick way to get a super intense fitness fix that could see you reaping serious benefits in power and speed.Spinning is addictive and you’ll usually spot a couple of regular attendees who have clearly been punching the pedals indoors at least once a week for months.</p>
+								</div>
+							</div>
+
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+  <!-- Footer -->
+
+
+    <footer id="footer" class="footer">
+      <!-- Your Company Name -->
+     <h2> ...............THANKS FOR VISITING SPARTAN FITNESS............</h2>
+          <img src="{%static "images/logo-icon1.jpg" %}" width="200" alt="Logo" >
+</footer>
+          <style>
+        marquee {
+        width: 100%;
+        padding: 10px 0;
+        background-color:brown;
+        }
+        </style>
+          <marquee direction="left">EMAIL US:1)saurabhgavali12@gmail.com </marquee>
+
+
+<script src="js/jquery-3.2.1.min.js"></script>
+<script src="styles/bootstrap-4.1.2/popper.js"></script>
+<script src="styles/bootstrap-4.1.2/bootstrap.min.js"></script>
+<script src="plugins/greensock/TweenMax.min.js"></script>
+<script src="plugins/greensock/TimelineMax.min.js"></script>
+<script src="plugins/scrollmagic/ScrollMagic.min.js"></script>
+<script src="plugins/greensock/animation.gsap.min.js"></script>
+<script src="plugins/greensock/ScrollToPlugin.min.js"></script>
+<script src="plugins/easing/easing.js"></script>
+<script src="plugins/parallax-js-master/parallax.min.js"></script>
+<script src="plugins/progressbar/progressbar.min.js"></script>
+<script src="js/elements.js"></script>
+</body>
+</html>

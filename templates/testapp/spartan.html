@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+{%load staticfiles%}
+<html lang="en">
+<head>
+<title>Spartan_FIT</title>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="description" content="Spartan Fit">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="{%static "styles/bootstrap-4.1.2/bootstrap.min.css"%}">
+<link href="{%static "plugins1/font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css" %}">
+<link rel="stylesheet" type="text/css" href="{%static "plugins1/OwlCarousel2-2.2.1/owl.carousel.css"%}">
+<link rel="stylesheet" type="text/css" href="{%static "plugins1/OwlCarousel2-2.2.1/owl.theme.default.css"%}">
+<link rel="stylesheet" type="text/css" href="{%static "plugins1/OwlCarousel2-2.2.1/animate.css"%}" >
+<link href="{%static "plugins1/colorbox/colorbox.css" rel="stylesheet" type="text/css"%}">
+<link rel="stylesheet" type="text/css" href="{%static "styles/main_styles.css"%}">
+<link rel="stylesheet" type="text/css" href="{%static "styles/responsive.css"%}">
+</head>
+<body>
+
+<div class="super_container">
+
+	<!-- Header -->
+
+	<header class="header">
+		<div class="container">
+			<div class="row">
+				<div class="col">
+					<div class="header_content d-flex flex-row align-items-center justify-content-start trans_400">
+						<a href="#">
+							<div class="logo d-flex flex-row align-items-center justify-content-start"><img src="{%static "images/dot.png" alt=""%}"><div>Spartan_<span>Fit</span></div></div>
+						</a>
+						<nav class="main_nav">
+							<ul class="d-flex flex-row align-items-center justify-content-start">
+								<li class="active"><a href="index.html">Home</a></li>
+								<li><a href="about.html">About us</a></li>
+								<li><a href="services.html">Classes & Services</a></li>
+								<li><a href="blog.html">Blog</a></li>
+								<li><a href="contact.html">Contact</a></li>
+							</ul>
+						</nav>
+						<div class="phone d-flex flex-row align-items-center justify-content-start ml-auto">
+							<i class="fa fa-phone" aria-hidden="true"></i>
+							<div>652-345 3222 11</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+
+	<!-- Hamburger -->
+
+	<div class="hamburger_bar trans_400 d-flex flex-row align-items-center justify-content-start">
+		<div class="hamburger">
+			<div class="menu_toggle d-flex flex-row align-items-center justify-content-start">
+				<span>menu</span>
+				<div class="hamburger_container">
+					<div class="menu_hamburger">
+						<div class="line_1 hamburger_lines" style="transform: matrix(1, 0, 0, 1, 0, 0);"></div>
+						<div class="line_2 hamburger_lines" style="visibility: inherit; opacity: 1;"></div>
+						<div class="line_3 hamburger_lines" style="transform: matrix(1, 0, 0, 1, 0, 0);"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- Menu -->
+
+	<div class="menu trans_800">
+		<div class="menu_content d-flex flex-column align-items-center justify-content-center text-center">
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="about.html">About us</a></li>
+				<li><a href="services.html">Classes & Services</a></li>
+				<li><a href="blog.html">Blog</a></li>
+				<li><a href="contact.html">Contact</a></li>
+			</ul>
+		</div>
+		<div class="menu_phone d-flex flex-row align-items-center justify-content-start">
+			<i class="fa fa-phone" aria-hidden="true"></i>
+				<span>652-345 3222 11</span>
+		</div>
+	</div>
+
+	<!-- Home -->
+
+	<div class="home">
+		<div class="background_image" style="background-image:url('https://images.unsplash.com/photo-1519505907962-0a6cb0167c73?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60')"></div>
+		<div class="overlay"></div>
+		<div class="home_container">
+			<div class="container">
+				<div class="row">
+					<div class="col">
+						<div class="home_content text-center">
+							<div class="video_link">
+								<a class="vimeo video_button d-flex flex-column align-items-center justify-content-center" href="https://player.vimeo.com/video/99340873?autoplay=1&loop=1&title=0&autopause=0">
+									<div class="video_link_content d-flex flex-row align-items-center justify-content-start">
+										<div class="video_icon d-flex flex-column align-items-center justify-content-center"><i class="fa fa-play" aria-hidden="true"></i></div>
+										<span class="video_text">See Workout Video</span>
+									</div>
+								</a>
+							</div>
+							<div class="home_title">Get fit with us</div>
+							<div class="home_subtitle">Pilates, Yoga, Fitness, Spinning & many more</div>
+							<div class="button home_button ml-auto mr-auto"><a href="#">Join Now</a></div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- Boxes -->
+
+	<div class="boxes">
+		<div class="container">
+			<div class="row">
+				<div class="col">
+					<div class="boxes_container d-flex flex-lg-row flex-column align-items-start justify-content-start">
+
+						<!-- Box -->
+						<div class="box">
+							<div class="box_icon d-flex flex-column align-items-center justify-content-center"><img src="{%static "images/icon_1.png" alt=""%}>"</div>
+							<div class="box_title">Pilates with trainer</div>
+							<div class="box_text">
+								<p>Etiam commodo justo nec aliquam feugiat. Donec a leo eget augue porttitor sollicitudin.</p>
+							</div>
+							<div class="box_link_container">
+								<a href="#"><div class="box_link d-flex flex-column align-items-center justify-content-center trans_200"><div>+</div></div></a>
+							</div>
+						</div>
+
+						<!-- Box -->
+						<div class="box">
+							<div class="box_icon d-flex flex-column align-items-center justify-content-center"><img src="{%static "images/icon_2.png" alt=""%}"></div>
+							<div class="box_title">Swimming Pool</div>
+							<div class="box_text">
+								<p>Donec a leo eget augue porttitor sollicitudin. Morbi sed varius risus, vitae molestie lectus. Donec id hendrerit.</p>
+							</div>
+							<div class="box_link_container">
+								<a href="#"><div class="box_link d-flex flex-column align-items-center justify-content-center trans_200"><div>+</div></div></a>
+							</div>
+						</div>
+
+						<!-- Box -->
+						<div class="box">
+							<div class="box_icon d-flex flex-column align-items-center justify-content-center"><img src="{%static "images/icon_3.png" alt="" %}"></div>
+							<div class="box_title">Healthy diet plan</div>
+							<div class="box_text">
+								<p>Morbi sed varius risus, vitae molestie lectus. Donec id hendrerit velit, eu fringilla neque.</p>
+							</div>
+							<div class="box_link_container">
+								<a href="#"><div class="box_link d-flex flex-column align-items-center justify-content-center trans_200"><div>+</div></div></a>
+							</div>
+						</div>
+
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- About -->
+
+	<div class="about">
+		<div class="container about_container">
+			<div class="row">
+				<div class="col-lg-6">
+					<div class="about_content">
+						<div class="section_title_container">
+							<div class="section_subtitle">welcome to Spartan_FIT</div>
+							<div class="section_title">About <span>Spartan_FIT</span></div>
+						</div>
+						<div class="text_highlight">Etiam commodo justo nec aliquam feugiat. Donec a leo eget eget augue porttitor sollicitudin augue porttitor sollicitudin.</div>
+						<div class="about_text">
+							<p>Morbi sed varius risus, vitae molestie lectus. Donec id hendrerit velit, eu fringilla neque. Etiam id finibus sapien. Donec sollicitudin luctus ex non pharetra. Aenean lobortis ut leo vel porta. Maecenas ac vestibulum lectus. Cras nulla urna, lacinia ut tempor facilisis, congue dignissim tellus. Maecenas ac vestibulum lectus. Cras nulla urna, lacinia ut tempor facilisis, congue dignissim tellus. Phasellus sit amet justo ullamcorper, elementum ipsum nec.</p>
+						</div>
+						<div class="button about_button"><a href="#">Join Now</a></div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="about_background">
+			<div class="container fill_height">
+				<div class="row fill_height">
+					<div class="col-lg-6 offset-lg-6 fill_height">
+						<div class="about_image"><img src="{%static "images/a1.png" alt=""%}"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+	<!-- Gallery -->
+
+	<div class="gallery">
+
+		<!-- Gallery Slider -->
+		<div class="gallery_slider_container">
+			<div class="owl-carousel owl-theme gallery_slider">
+
+				<!-- Slide -->
+				<div class="owl-item"><img src="{%static "images/gallery_3.jpg" alt="" %}"></div>
+
+				<!-- Slide -->
+				<div class="owl-item"><img src="{%static "images/gallery_4.jpg" alt=""%}"></div>
+
+				<!-- Slide -->
+				<div class="owl-item"><img src="{%static "images/gallery_5.jpg" alt=""%}"></div>
+
+				<!-- Slide -->
+				<div class="owl-item"><img src="{%static "images/gallery_1.jpg" alt=""%}"></div>
+
+				<!-- Slide -->
+				<div class="owl-item"><img src="{%static "images/gallery_2.jpg" alt=""%}"></div>
+
+			</div>
+		</div>
+	</div>
+
+	<!-- Services -->
+
+	<div class="services">
+		<div class="container">
+			<div class="row">
+				<div class="col">
+					<div class="section_title_container">
+						<div class="section_subtitle">welcome to Spartan_FIT</div>
+						<div class="section_title">Our Courses</div>
+					</div>
+				</div>
+			</div>
+			<div class="row services_row">
+
+				<!-- Service -->
+				<div class="col-xl-4 col-md-6 service_col">
+					<div class="service">
+						<div class="service_title_container d-flex flex-row align-items-center justify-content-start">
+							<div><div class="service_icon"><img src="{%static "images/icon_4.png" alt=""%}"></div></div>
+							<div class="service_title">Weight Loss Class</div>
+						</div>
+						<div class="service_text">
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec malesuada lorem maximus mauris scelerisque, at rutrum.</p>
+						</div>
+					</div>
+				</div>
+
+				<!-- Service -->
+				<div class="col-xl-4 col-md-6 service_col">
+					<div class="service">
+						<div class="service_title_container d-flex flex-row align-items-center justify-content-start">
+							<div><div class="service_icon"><img src="{%static "images/icon_5.png" alt=""%}"></div></div>
+							<div class="service_title">Yoga Classes</div>
+						</div>
+						<div class="service_text">
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec malesuada lorem maximus mauris scelerisque, at rutrum.</p>
+						</div>
+					</div>
+				</div>
+
+				<!-- Service -->
+				<div class="col-xl-4 col-md-6 service_col">
+					<div class="service">
+						<div class="service_title_container d-flex flex-row align-items-center justify-content-start">
+							<div><div class="service_icon"><img src="{%static "images/icon_6.png" alt=""%}"></div></div>
+							<div class="service_title">Spinning Class</div>
+						</div>
+						<div class="service_text">
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec malesuada lorem maximus mauris scelerisque, at rutrum.</p>
+						</div>
+					</div>
+				</div>
+
+				<!-- Service -->
+				<div class="col-xl-4 col-md-6 service_col">
+					<div class="service">
+						<div class="service_title_container d-flex flex-row align-items-center justify-content-start">
+							<div><div class="service_icon"><img src="{%static "images/icon_7.png" alt=""%}"></div></div>
+							<div class="service_title">Private Fit Class</div>
+						</div>
+						<div class="service_text">
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec malesuada lorem maximus mauris scelerisque, at rutrum.</p>
+						</div>
+					</div>
+				</div>
+
+				<!-- Service -->
+				<div class="col-xl-4 col-md-6 service_col">
+					<div class="service">
+						<div class="service_title_container d-flex flex-row align-items-center justify-content-start">
+							<div><div class="service_icon"><img src="{%static "images/icon_8.png" alt=""%}"></div></div>
+							<div class="service_title">Nutrition Classes</div>
+						</div>
+						<div class="service_text">
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec malesuada lorem maximus mauris scelerisque, at rutrum.</p>
+						</div>
+					</div>
+				</div>
+
+				<!-- Service -->
+				<div class="col-xl-4 col-md-6 service_col">
+					<div class="service">
+						<div class="service_title_container d-flex flex-row align-items-center justify-content-start">
+							<div><div class="service_icon"><img src="{%static "images/icon_9.png" alt=""}"></div></div>
+							<div class="service_title">Pillates Class</div>
+						</div>
+						<div class="service_text">
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec malesuada lorem maximus mauris scelerisque, at rutrum.</p>
+						</div>
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</div>
+
+
+
+
+
+<script src="js/jquery-3.2.1.min.js"></script>
+<script src="styles/bootstrap-4.1.2/popper.js"></script>
+<script src="styles/bootstrap-4.1.2/bootstrap.min.js"></script>
+<script src="plugins/greensock/TweenMax.min.js"></script>
+<script src="plugins/greensock/TimelineMax.min.js"></script>
+<script src="plugins/scrollmagic/ScrollMagic.min.js"></script>
+<script src="plugins/greensock/animation.gsap.min.js"></script>
+<script src="plugins/greensock/ScrollToPlugin.min.js"></script>
+<script src="plugins/OwlCarousel2-2.2.1/owl.carousel.js"></script>
+<script src="plugins/easing/easing.js"></script>
+<script src="plugins/progressbar/progressbar.min.js"></script>
+<script src="plugins/parallax-js-master/parallax.min.js"></script>
+<script src="plugins/colorbox/jquery.colorbox-min.js"></script>
+<script src="js/custom.js"></script>
+</body>
+</html>

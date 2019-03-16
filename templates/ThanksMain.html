@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+{%load staticfiles%}
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>SPARTAN_FITNESS..</title>
+    <link rel="icon" type="image/png" href="{% static "images/logo-icon1.jpg" %}">
+
+    <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<link rel="stylesheet" href="{% static "css/movie1.css"%}">
+ <link rel="stylesheet" href="{% static "css/reset.css" %}  ">
+ <link rel="stylesheet" href="{% static "css/animate.min.css" %}">
+
+  </head>
+  <body>
+    <section id="navigation" class="dark-nav">
+    <!-- Navigation -->
+      <!-- Navigation Inner -->
+      <div class="nav-inner">
+        <!-- Site Logo -->
+        <div class="site-logo Sanserif">
+          <a  id="logo-text" class="scroll logo">SPARTAN FITNESS
+          </a>
+
+        </div><!-- End Site Logo -->
+        <a class="mini-nav-button gray2"><i class="fa fa-bars"></i></a>
+        <!-- Navigation Menu -->
+          <div class="nav-menu">
+          <ul class="nav uppercase">
+            <li><a href='/' class="scroll">Home</a></li>
+            <li><a href='/food.html' class="scroll">About us</a></li>
+            <li><a href='/elements.html' class="scroll">Trainers</a></li>
+            <li><a href='/blog' class="scroll">BLOG</a></li>
+            <li><a href='/service.html' class="scroll">PLANS</a></li>
+
+          </ul>
+        </div><!-- End Navigation Menu -->
+      </div><!-- End Navigation Inner -->
+
+
+    <h1 text-align='center'>............................THANKS FOR REGISTRATION IN SPARTAN ..............................</h1>
+    <h2 text='center'>Our Club Counsultant Respond Shortly.....</h2>
+    <marquee direction="right"><a href='/service.html'>"Click here To See Club Plans"</a></marquee>
+
+    <style>
+marquee {
+width: 100%;
+padding: 10px 0;
+background-color:brown;
+}
+</style>
+<div class="container" align='center'>
+   {%block body_block%}
+   {%endblock%}
+ </div>
+</section><!-- End Navigation Section -->
+
+  </body>
+</html>

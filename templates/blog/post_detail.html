@@ -1,0 +1,8 @@
+{%extends 'blog/base.html' %}
+{%block title_block%}{{post.title}}{%endblock%}
+    {%block content%}
+      <h1>{{post.title}}</h1>
+      <p id='date'>Published on {{post.publish}} by {{post.author|title}}</p>
+      {{post.body|linebreaks}}<br><br>
+      <a href="/{{post.id}}/share" class="btn btn-lg btn-success">Share Post By Email</a>
+    {%endblock%}

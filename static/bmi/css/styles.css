@@ -1,0 +1,212 @@
+body {
+  background-image: url('https://images.unsplash.com/photo-1465984111739-03a1ee4647a0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60');
+  background-size: cover;
+  background-position: center; }
+
+body,
+html {
+  width: 100%;
+  height: 100%; }
+
+.site {
+  width: 100%;
+  float: left;
+  padding: 0 0 0 0; }
+
+#message {
+  border: none;
+  width: 100%;
+  height: 355px;
+  margin: 0 0 0 0;
+  background-color: #91aecc;
+  opacity: .93; }
+
+.content {
+  font-family: 'Lato', sans-serif;
+  text-align: center;
+  color: white; }
+
+.content h1 {
+  color: #e6f238;
+  padding: 25px 0 0 0;
+  font-size: 22px; }
+
+.content h2 {
+  padding: 2px 0 0 0;
+  font-size: 18px; }
+
+.content p {
+  padding: 10px 0 0 0;
+  font-size: 14px;
+  margin: 0 25px 0 25px; }
+
+#calc {
+  border: none;
+  width: 100%;
+  height: 250px;
+  margin: 0 0 0 0;
+  background-color: #e6f238;
+  opacity: .93; }
+
+.calcContent {
+  font-family: 'Lato', sans-serif;
+  text-align: center;
+  color: black; }
+
+.calcContent h1 {
+  padding: 25px 0 0 0;
+  font-size: 16px; }
+
+.calcContent h2 {
+  padding: 5px 0 0 0;
+  font-size: 18px; }
+
+table p {
+  padding: 10px 0 0 0;
+  font-size: 14px; }
+
+table {
+  margin: 0 auto; }
+
+/* button */
+#calculateBMI {
+  background-color: #91aecc;
+  border: none;
+  color: white;
+  padding: 2px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  margin: 0px 2px;
+  -webkit-transition-duration: 0.35s;
+  transition-duration: 0.35s;
+  cursor: pointer;
+  opacity: .93; }
+
+/* button:hover */
+#calculateBMI:hover {
+  background-color: #507eaf;
+  color: white;
+  border: none;
+  opacity: .93; }
+
+#output {
+  margin-top: -6px;
+  font-size: 14px; }
+
+/* Small Devices, Tablets */
+@media (min-width: 768px) {
+  #message {
+    width: 375px;
+    height: 550px;
+    margin: 70px 0 0 0; }
+  .content h1 {
+    padding: 20px 0 0 0;
+    font-size: 40px;
+    color: blue; }
+  .content h2 {
+    padding: 5px 0 0 0;
+    font-size: 30px; }
+  .content p {
+    padding: 10px 0 0 0;
+    font-size: 18px; }
+  #calc {
+    position: absolute;
+    right: 0px;
+    width: 375px;
+    height: 340px;
+    margin: -20px 20px 0 0; }
+  .calcContent h1 {
+    padding: 0 0 0 0;
+    font-size: 40px; }
+  table p {
+    padding: 10px 0 0 0;
+    font-size: 20px; }
+  table {
+    margin: 0 auto; }
+  /* button */
+  #calculateBMI {
+    padding: 12px 20px;
+    font-size: 20px;
+    margin: 4px 2px; }
+  #output {
+    margin-top: -18px;
+    font-size: 18px; }
+  /* Medium Devices, Desktops */ }
+
+@media (min-width: 768px) and (min-width: 992px) {
+  #message {
+    width: 400px;
+    height: 400px;
+    margin: 22px 0 0 0; }
+  .content h1 {
+    padding: 20px 0 0 0;
+    font-size: 26px;
+    color: green; }
+  .content h2 {
+    padding: 5px 0 0 0;
+    font-size: 22px; }
+  .content p {
+    padding: 10px 0 0 0;
+    font-size: 16px; }
+  #calc {
+    position: absolute;
+    right: 0px;
+    width: 380px;
+    height: 345px;
+    margin: -120px 20px 0 0; }
+  .calcContent h1 {
+    padding: 0 0 0 0;
+    font-size: 35px; }
+  table p {
+    padding: 10px 0 0 0;
+    font-size: 14px; }
+  table {
+    margin: 0 auto; }
+  /* button */
+  #calculateBMI {
+    padding: 12px 20px;
+    font-size: 16px;
+    margin: 4px 2px; }
+  #output {
+    margin: 0px 0 0;
+    font-size: 18px; }
+  /* Large Devices, Wide Screens */ }
+
+@media (min-width: 768px) and (min-width: 992px) and (min-width: 1200px) {
+  #message {
+    width: 400px;
+    height: 400px;
+    margin: 35px 0 0 0; }
+  .content h1 {
+    font-size: 26px;
+    color: green; }
+  .content h2 {
+    padding: 5px 0 0 0;
+    font-size: 22px; }
+  .content p {
+    padding: 10px 0 0 0;
+    font-size: 18px; }
+  #calc {
+    position: absolute;
+    right: 0px;
+    width: 380px;
+    height: 345px;
+    margin: -120px 20px 0 0; }
+  .calcContent h1 {
+    padding: 0 0 0 0;
+    font-size: 42px; }
+  table p {
+    padding: 10px 0 0 0;
+    font-size: 20px; }
+  table {
+    margin: 0 auto; }
+  /* button */
+  #calculateBMI {
+    padding: 12px 20px;
+    font-size: 20px;
+    margin: 4px 2px; }
+  #output {
+    margin-top: -18px;
+    font-size: 22px; } }

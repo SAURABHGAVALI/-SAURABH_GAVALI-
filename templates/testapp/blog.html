@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+{%load staticfiles%}
+<html lang="en">
+<head>
+<title>SPARTAN_FIT</title>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="description" content="SportFIT template project">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+<link rel="icon" type="image/png" href="{%static "images/favicon.jpg" %}">
+
+
+<link rel="stylesheet" type="text/css" href="{%static "styles/bootstrap-4.1.2/bootstrap.min.css" %}">
+
+<link href="{%static "plugins/font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css"%}">
+
+<link rel="stylesheet" type="text/css" href="{%static "styles/blog.css" %}">
+
+<link rel="stylesheet" type="text/css" href="{%static "styles/blog_responsive.css" %}">
+
+<link rel="stylesheet" href="{% static  "css/font-awesome.css" %}">
+<link rel="stylesheet" href="{% static "css/bootstrap.min.css"%}">
+
+<link rel="stylesheet" href="{% static "css/responsive.css" %}">
+<link rel="stylesheet" href="{% static "css/player/YTPlayer.css" %}">
+<link href="{% static "css/pro-bars.css" rel="stylesheet" %}">
+
+<!-- CSS Files -->
+<link rel="stylesheet" href="{% static "extra/sse.css"%}">
+<link rel="stylesheet" href="{% static "css/reset.css" %}">
+<link rel="stylesheet" href="{% static "css/animate.min.css">
+
+</head>
+<body>
+
+
+	    <section id="navigation" class="dark-nav">
+	    <!-- Navigation -->
+	      <!-- Navigation Inner -->
+	      <div class="nav-inner">
+	        <!-- Site Logo -->
+	        <div class="site-logo Sanserif">
+	          <a href="#" id="logo-text" class="scroll logo">SPARTAN FITNESS
+	          </a>
+	        </div><!-- End Site Logo -->
+	        <a class="mini-nav-button gray2"><i class="fa fa-bars"></i></a>
+	        <!-- Navigation Menu -->
+	          <div class="nav-menu">
+	          <ul class="nav uppercase">
+	            <li><a href="index.html" class="scroll">Home</a></li>
+	            <li><a href="index1.html" class="scroll">About us</a></li>
+	            <li><a href="#features" class="scroll">Features</a></li>
+	            <li><a href="#clients" class="scroll">Gymnasts</a></li>
+	            <li><a href="#testimonial" class="scroll">BMI</a></li>
+	            <li><a href="blog.html" class="scroll">BLOG</a></li>
+	            <li><a href="#contact" class="scroll">JOIN US</a></li>
+	          </ul>
+	        </div><!-- End Navigation Menu -->
+	      </div><!-- End Navigation Inner -->
+	    </section><!-- End Navigation Section -->
+
+
+
+
+	<!-- Home -->
+
+	<div class="home">
+		<div class="background_image" style="background-image:url('https://images.unsplash.com/photo-1434682881908-b43d0467b798?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=753&q=80')"></div>
+		<div class="overlay"></div>
+		<div class="home_container">
+			<div class="container">
+				<div class="row">
+					<div class="col">
+						<div class="home_content">
+							<div class="home_title">Blog</div>
+							<div class="home_subtitle">Pilates, Yoga, Fitness, Spinning & many more</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- Blog -->
+
+	<div class="blog">
+		<div class="container">
+			<div class="row">
+				<div class="col">
+					<div class="section_title_container">
+						<div class="section_subtitle">welcome to spartan_fit</div>
+						<div class="section_title">The Blog</div>
+					</div>
+				</div>
+			</div>
+			<div class="row blog_row">
+
+				<!-- Blog Post -->
+				<div class="col-xl-4 col-md-6 blog_col">
+					<div class="blog_post">
+						<div class="blog_post_image"><img src="{%static "images/blog_4.jpg" alt="" %}"></div>
+						<div class="blog_post_title"><a href="#">Tips for the perfect body</a></div>
+						<div class="blog_post_date"><a href="#">june 29, 2018</a></div>
+						<div class="blog_post_text">
+							<p>Etiam nec odio vestibulum est mattis effic iturut magna. Pellentesque sit amet tellus blandit. Odio vestibulum est mattis effic iturut.</p>
+						</div>
+						<div class="blog_post_link"><a href="#">Read More</a></div>
+					</div>
+				</div>
+
+				<!-- Blog Post -->
+				<div class="col-xl-4 col-md-6 blog_col">
+					<div class="blog_post">
+						<div class="blog_post_image"><img src="{%static "images/blog_5.jpg" alt="" %}"></div>
+						<div class="blog_post_title"><a href="#">Tips for the perfect body</a></div>
+						<div class="blog_post_date"><a href="#">june 29, 2018</a></div>
+						<div class="blog_post_text">
+							<p>Etiam nec odio vestibulum est mattis effic iturut magna. Pellentesque sit amet tellus blandit. Odio vestibulum est mattis effic iturut.</p>
+						</div>
+						<div class="blog_post_link"><a href="#">Read More</a></div>
+					</div>
+				</div>
+
+				<!-- Blog Post -->
+				<div class="col-xl-4 col-md-6 blog_col">
+					<div class="blog_post">
+						<div class="blog_post_image"><img src="{%static "images/blog_6.jpg" alt="" %}"></div>
+						<div class="blog_post_title"><a href="#">Video: Pilates 4 Begginers</a></div>
+						<div class="blog_post_date"><a href="#">june 29, 2018</a></div>
+						<div class="blog_post_text">
+							<p>Etiam nec odio vestibulum est mattis effic iturut magna. Pellentesque sit amet tellus blandit. Odio vestibulum est mattis effic iturut.</p>
+						</div>
+						<div class="blog_post_link"><a href="#">Read More</a></div>
+					</div>
+				</div>
+
+				<!-- Blog Post -->
+				<div class="col-xl-4 col-md-6 blog_col">
+					<div class="blog_post">
+						<div class="blog_post_image"><img src="{%static "images/blog_7.jpg" alt="" %}"></div>
+						<div class="blog_post_title"><a href="#">Summer food</a></div>
+						<div class="blog_post_date"><a href="#">june 29, 2018</a></div>
+						<div class="blog_post_text">
+							<p>Etiam nec odio vestibulum est mattis effic iturut magna. Pellentesque sit amet tellus blandit. Odio vestibulum est mattis effic iturut.</p>
+						</div>
+						<div class="blog_post_link"><a href="#">Read More</a></div>
+					</div>
+				</div>
+
+				<!-- Blog Post -->
+				<div class="col-xl-4 col-md-6 blog_col">
+					<div class="blog_post">
+						<div class="blog_post_image"><img src="{%static "images/blog_8.jpg" alt="" %}"></div>
+						<div class="blog_post_title"><a href="#">Neck Exercise</a></div>
+						<div class="blog_post_date"><a href="#">june 29, 2018</a></div>
+						<div class="blog_post_text">
+							<p>Etiam nec odio vestibulum est mattis effic iturut magna. Pellentesque sit amet tellus blandit. Odio vestibulum est mattis effic iturut.</p>
+						</div>
+						<div class="blog_post_link"><a href="#">Read More</a></div>
+					</div>
+				</div>
+
+				<!-- Blog Post -->
+				<div class="col-xl-4 col-md-6 blog_col">
+					<div class="blog_post">
+						<div class="blog_post_image"><img src="{%static "images/blog_9.jpg" alt=""%}"></div>
+						<div class="blog_post_title"><a href="#">Weight lifting tips</a></div>
+						<div class="blog_post_date"><a href="#">june 29, 2018</a></div>
+						<div class="blog_post_text">
+							<p>Etiam nec odio vestibulum est mattis effic iturut magna. Pellentesque sit amet tellus blandit. Odio vestibulum est mattis effic iturut.</p>
+						</div>
+						<div class="blog_post_link"><a href="#">Read More</a></div>
+					</div>
+				</div>
+
+				<!-- Blog Post -->
+				<div class="col-xl-4 col-md-6 blog_col">
+					<div class="blog_post">
+						<div class="blog_post_image"><img src="{%static "images/blog_10.jpg" alt=""%}"></div>
+						<div class="blog_post_title"><a href="#">Yoga Classes</a></div>
+						<div class="blog_post_date"><a href="#">june 29, 2018</a></div>
+						<div class="blog_post_text">
+							<p>Etiam nec odio vestibulum est mattis effic iturut magna. Pellentesque sit amet tellus blandit. Odio vestibulum est mattis effic iturut.</p>
+						</div>
+						<div class="blog_post_link"><a href="#">Read More</a></div>
+					</div>
+				</div>
+
+				<!-- Blog Post -->
+				<div class="col-xl-4 col-md-6 blog_col">
+					<div class="blog_post">
+						<div class="blog_post_image"><img src="{%static "images/blog_11.jpg" alt="" %}"></div>
+						<div class="blog_post_title"><a href="#">Tips for the perfect body</a></div>
+						<div class="blog_post_date"><a href="#">june 29, 2018</a></div>
+						<div class="blog_post_text">
+							<p>Etiam nec odio vestibulum est mattis effic iturut magna. Pellentesque sit amet tellus blandit. Odio vestibulum est mattis effic iturut.</p>
+						</div>
+						<div class="blog_post_link"><a href="#">Read More</a></div>
+					</div>
+				</div>
+
+				<!-- Blog Post -->
+				<div class="col-xl-4 col-md-6 blog_col">
+					<div class="blog_post">
+						<div class="blog_post_image"><img src="{%static "images/blog_12.jpg" alt="" %}"></div>
+						<div class="blog_post_title"><a href="#">Video: Pilates 4 Begginers</a></div>
+						<div class="blog_post_date"><a href="#">june 29, 2018</a></div>
+						<div class="blog_post_text">
+							<p>Etiam nec odio vestibulum est mattis effic iturut magna. Pellentesque sit amet tellus blandit. Odio vestibulum est mattis effic iturut.</p>
+						</div>
+						<div class="blog_post_link"><a href="#">Read More</a></div>
+					</div>
+				</div>
+
+
+
+<script src="js/jquery-3.2.1.min.js"></script>
+<script src="styles/bootstrap-4.1.2/popper.js"></script>
+<script src="styles/bootstrap-4.1.2/bootstrap.min.js"></script>
+<script src="plugins/greensock/TweenMax.min.js"></script>
+<script src="plugins/greensock/TimelineMax.min.js"></script>
+<script src="plugins/scrollmagic/ScrollMagic.min.js"></script>
+<script src="plugins/greensock/animation.gsap.min.js"></script>
+<script src="plugins/greensock/ScrollToPlugin.min.js"></script>
+<script src="plugins/easing/easing.js"></script>
+<script src="plugins/parallax-js-master/parallax.min.js"></script>
+<script src="js/blog.js"></script>
+</body>
+</html>

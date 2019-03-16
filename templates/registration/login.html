@@ -1,0 +1,68 @@
+
+<!DOCTYPE html>
+{%load staticfiles%}
+  <html lang="en" dir="ltr">
+    <head>
+      <meta charset="utf-8">
+      <title>SPARTAN_FIT</title>
+      <link rel="icon" type="image/png" href="{% static "images/logo-icon1.jpg" %}">
+      <link rel="stylesheet" href="{% static  "css/font-awesome.css" %}">
+      <link rel="stylesheet" href="{% static "css/bootstrap.min.css"%}">
+      <link rel="stylesheet" href="{%static "assets/css/Fitnezz.min.css" %}">
+
+      <link rel="stylesheet" href="{% static "css/responsive.css" %}">
+      <link rel="stylesheet" href="{% static "css/player/YTPlayer.css" %}">
+      <link href="{% static "css/pro-bars.css" rel="stylesheet" %}">
+
+      <link rel="stylesheet" type="text/css" href="{%static "styles/services.css" %}">
+      <link href="{%static "plugins/colorbox/colorbox.css" rel="stylesheet" type="text/css"%}"
+      <link rel="stylesheet" type="text/css" href="{%static "styles/services.css" %}">
+      <link rel="stylesheet" type="text/css" href="{%static "styles/services_responsive.css" %}">
+
+    	<!-- CSS Files -->
+     <link rel="stylesheet" href="{% static "css/movie1.css"%}">
+    	<link rel="stylesheet" href="{% static "css/reset.css" %}  ">
+    	<link rel="stylesheet" href="{% static "css/animate.min.css" %}">
+
+    </head>
+  <body>
+    <section id="navigation" class="dark-nav">
+    <!-- Navigation -->
+      <!-- Navigation Inner -->
+      <div class="nav-inner">
+        <!-- Site Logo -->
+        <div class="site-logo Sanserif">
+          <a  id="logo-text" class="scroll logo">SPARTAN FITNESS
+          </a>
+
+        </div><!-- End Site Logo -->
+        <a class="mini-nav-button gray2"><i class="fa fa-bars"></i></a>
+        <!-- Navigation Menu -->
+          <div class="nav-menu">
+          <ul class="nav uppercase">
+            <li><a href='/' class="scroll">Home</a></li>
+            <li><a href='/food.html' class="scroll">About us</a></li>
+            <li><a href='/elements.html' class="scroll">Trainers</a></li>
+            <li><a href='/blog' class="scroll">BLOG</a></li>
+           </ul>
+        </div><!-- End Navigation Menu -->
+
+      </div><!-- End Navigation Inner -->
+
+      {%block body_block%}
+      <div class="container" align='center'>
+
+      <h1>Login To See Plans</h1>
+
+          <form method="post">
+          {% csrf_token %}
+          {{ form.as_p }}
+          <button type="submit">Login</button>
+          </form>
+  </div>
+</section><!-- End Navigation Section -->
+
+      {%endblock%}
+
+  </body>
+</html>

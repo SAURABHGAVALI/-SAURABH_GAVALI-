@@ -1,0 +1,26 @@
+
+
+	.footer{
+			padding:45px;
+			text-align: center;
+			background: #191919;
+			background:#222;
+		}
+
+		.footer h2.company-name{
+			margin-top:0;
+			padding-top:0;
+			font-size:35px;
+		}
+
+		.footer p.copyright{
+			margin-bottom:0;
+			padding-bottom:0;
+			padding-top:15px;
+			color:#999;
+			font-size:14px;
+		}
+
+		.footer p.copyright a:hover{
+			color:#8BC3A3;
+		}
